@@ -3,7 +3,7 @@ study
 
 ## Table of Contents
 
-- [About Project](#About-Project)
+- [About The Project](#About-The-Project)
 
 
-## About Project
+## About The Project
