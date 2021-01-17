@@ -1,4 +1,11 @@
 study/studyspring/controller/HelloController.java
  study.studyspring.controller.HelloController
+ study.studyspring.controller.HelloController$Hello
+study/studyspring/domain/repository/MemoryMemberRepository.java
+ study.studyspring.domain.repository.MemoryMemberRepository
 study/studyspring/StudySpringApplication.java
  study.studyspring.StudySpringApplication
+study/studyspring/domain/repository/MeberRepository.java
+ study.studyspring.domain.repository.MeberRepository
+study/studyspring/domain/Member.java
+ study.studyspring.domain.Member
