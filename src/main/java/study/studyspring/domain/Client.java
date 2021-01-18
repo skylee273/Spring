@@ -1,6 +1,6 @@
 package study.studyspring.domain;
 
-public class Member {
+public class Client {
     String name;
     long id;
 
