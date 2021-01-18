@@ -2,6 +2,7 @@ package study.studyspring.repository;
 
 
 
+import org.springframework.stereotype.Repository;
 import study.studyspring.domain.Member;
 
 import java.util.*;

@@ -1,5 +1,7 @@
 package study.studyspring.Service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import study.studyspring.domain.Member;
 import study.studyspring.repository.MemberRepository;
 import study.studyspring.repository.MemoryMemberRepository;
@@ -9,15 +11,16 @@ import java.util.Optional;
 
 // 서비스에 맞는 네이밍 잡는다.
 // Test 만들기 단추기 ctrl + shift + T
+
+
 public class MemberService {
 
     private final MemberRepository memberRepository;
 
-
+    // 생성자 주입
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
-
 
     /**
      * 회원가입
