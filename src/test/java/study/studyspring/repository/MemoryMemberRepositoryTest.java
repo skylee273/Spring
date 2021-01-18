@@ -7,11 +7,12 @@ import study.studyspring.domain.Member;
 
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+
 
 /**
  * 순서는 보장이 되지 않는다.
- * @AfterEach : 테스트 끝나자마자 실행되어 클리어 해줌
+ * AfterEach : 테스트 끝나자마자 실행되어 클리어 해줌
  * TDD : 테스트를 먼저 만들고 구현 클래스를 만들어서 실행
  */
 class MemoryMemberRepositoryTest {
