@@ -1,6 +1,6 @@
 package study.studyspring.domain;
 
-public class Client {
+public class Member {
     String name;
     long id;
     // git
