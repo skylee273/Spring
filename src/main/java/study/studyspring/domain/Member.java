@@ -3,6 +3,7 @@ package study.studyspring.domain;
 public class Member {
     String name;
     long id;
+    // git
 
     public String getName() {
         return name;
