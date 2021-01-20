@@ -1,8 +1,15 @@
 package study.studyspring.domain;
 
+import javax.persistence.*;
+
+@Entity
 public class Member {
-    String name;
+
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
+
+    String name;
+
     // git
 
     public String getName() {

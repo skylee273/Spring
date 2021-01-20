@@ -2,6 +2,7 @@ package study.studyspring.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import study.studyspring.domain.Member;
 import study.studyspring.repository.MemberRepository;
 import study.studyspring.repository.MemoryMemberRepository;
@@ -12,7 +13,7 @@ import java.util.Optional;
 // 서비스에 맞는 네이밍 잡는다.
 // Test 만들기 단추기 ctrl + shift + T
 
-
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
@@ -25,6 +26,7 @@ public class MemberService {
     /**
      * 회원가입
      * 비즈니스 로직 : 같은 중복 회원 안된다.
+     *
      * @param member
      * @return
      */
@@ -41,13 +43,15 @@ public class MemberService {
                     throw new IllegalStateException("이미 존재하는 회원입니다.");
                 });
     }
+
     /**
      * 전체 회원 조회
      */
-    public List<Member> findMembers(){
-       return memberRepository.findAll();
+    public List<Member> findMembers() {
+        return memberRepository.findAll();
     }
-    public Optional<Member> findOne(Long memberId){
+
+    public Optional<Member> findOne(Long memberId) {
         return memberRepository.findById(memberId);
     }
 
