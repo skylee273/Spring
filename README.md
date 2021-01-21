@@ -2,20 +2,19 @@
 study
 
 ## Table of Contents
-
 - [About The Project](#About-The-Project)
-- [라이브러리 살펴보기](https://github.com/skylee273/spring/tree/master/document/chapter_1)
+- [라이브러리 살펴보기](https://github.com/skylee273/spring/tree/master/document/chapter_1 "라이브러리 살펴보기")
 - [스프링 웹 개발 기초](https://github.com/skylee273/spring/tree/master/document/chapter_2 "스프링 웹개발 기초")
-- [스프링 웹 개발 기초](#스프링-웹-개발-기초)
-- [정적 컨텐츠](#정적-컨텐츠)
-- [MVC와 템플릿 엔진](#MVC와-템플릿-엔진)
-- [API](#API)
-- [비즈니스 요구사항 정리](#비즈니스-요구사항-정리)  
-- [회원 도메인과 리포지토리 만들기](#회원-도메인과-리포지토리-만들기)
-- [회원 리포지토리 테스트 케이스 작성](#회원-리포지토리-테스트-케이스-작성)
-- [Spring DB 접근 기술](#Spring-DB-접근-기술)
-- [용어정리](#용어정리)
-- [ShortCut](#ShortCut)
+- [비즈니스 요구사항 정리](https://github.com/skylee273/spring/tree/master/document/chapter_3 "비즈니스 요구사항 정리")
+- [회원 리포지토리 테스트 케이스 작성](https://github.com/skylee273/spring/tree/master/document/chapter_4 "회원 리포지토리 테스트 케이스 작성")
+- [Spring Bean Dependency Injection](https://github.com/skylee273/spring/tree/master/document/chapter_5 "Spring Bean Dependency Injection")
+- [Spring DB 접근 기술](https://github.com/skylee273/spring/tree/master/document/chapter_6)
+- [JPA](https://github.com/skylee273/spring/tree/master/document/chapter_7)  
+- [AOP](https://github.com/skylee273/spring/tree/master/document/chapter_8)
+
+
+## About The Project
+
 
 ## 용어정리
   - TDD(Test-driven development) : 테스트 주도 개발
