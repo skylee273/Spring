@@ -5,7 +5,7 @@ study
 
 - [About The Project](#About-The-Project)
 - [라이브러리 살펴보기](https://github.com/skylee273/spring/tree/master/document/chapter_1)
-- [View 환경설정](#View-환경설정)
+- [스프링 웹 개발 기초](https://github.com/skylee273/spring/tree/master/document/chapter_2 "스프링 웹개발 기초")
 - [스프링 웹 개발 기초](#스프링-웹-개발-기초)
 - [정적 컨텐츠](#정적-컨텐츠)
 - [MVC와 템플릿 엔진](#MVC와-템플릿-엔진)
